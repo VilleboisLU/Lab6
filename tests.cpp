@@ -69,4 +69,3 @@ void tests::testFactorial()
     QCOMPARE(factorial(0), 1);
     QVERIFY_EXCEPTION_THROWN(factorial(-1), std::runtime_error);
 }
-
